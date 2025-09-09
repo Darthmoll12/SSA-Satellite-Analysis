@@ -1,5 +1,5 @@
 # SSA-Satellite-Analysis
-An open-source Space Situational Awareness (SSA) program that tracks live satellite data and live space weather data in an interactive dashboard to create a risk assessment for satellites in LEO.23
+An open-source Space Situational Awareness (SSA) program that tracks live satellite data and live space weather data in an interactive dashboard to create a risk assessment for satellites in LEO.
 
 ### What is Space Situational Awareness (SSA)?
 SSA is any framework that provides for the knowledge of internal or external threats, environmental conditions, or obstructions to assets in space. These assets are oftentimes satellites that serve an integral function for the Unites States military,
