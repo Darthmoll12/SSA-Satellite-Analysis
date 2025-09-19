@@ -1,4 +1,4 @@
-# Documentation folder
+# Documentation Directory
 
 This directory includes all necessary documentation for the Perseus open-source 
 SSA application.
