@@ -106,8 +106,8 @@ def tle_to_dict(tle_data):
     return tle_dict
 
 
-def get_state_vector(lines, dict):
+def propagate(lines, time):
     ISS = Satrec.twoline2rv(lines[1], lines[2])
-    jd_int, jd_frac = dict["ISS (ZARYA)"]["Line1"]["epoch"]
+    jd_int, jd_frac = time
     error_code, position, velocity = ISS.sgp4(jd_int, jd_frac)
     return position, velocity
